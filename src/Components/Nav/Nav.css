@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+.nav {
+	position: fixed;
+	background-color: #343A40;
+	width: 100%;
+	height: 64px;
+	display: flex;
+	font-family: 'Spartan', sans-serif;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+
+}
+
+.navTitle a {
+	text-decoration: none;
+	color: #DEEDF0;
+	margin-left: 3vw;
+	font-size: 25px;
+	font-family: 'Spartan', sans-serif;
+	transition: all 0.5s;
+}
+
+.navTitle a:hover {
+	letter-spacing: 2px;
+}
+
+.navLinks a {
+	text-decoration: none;
+	color: #FFF5FD;
+	margin-right: 5vw;
+	font-size: 17px;
+	transition: all 0.5s;
+}
+
+.navLinks a:hover {
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+a.left {
+	position: relative;
+}
+
+a.left:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: #DEEDF0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+	visibility: visible;
+	width: 110%;
+}
+
+@media (max-width: 900px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		height: 100px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navTitle {
+		margin-bottom: 10px;
+		font-size: 23px;
+	}
+
+	.navLinks {
+		margin-top: 8px;
+	}
+
+	.navLinks a {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		height: 100px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.navTitle {
+		margin-bottom: 10px;
+		font-size: 23px;
+	}
+
+	.navLinks a {
+		margin-left: 15px;
+		margin-right: 15px;
+		font-size: 14px;
+		transition: all 0.5s;
+	}
+
+	.navLinks a:hover {
+		letter-spacing: 1px;
+		font-size: 17px;
+	}
+}

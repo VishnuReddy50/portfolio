@@ -1,0 +1,127 @@
+.skills {
+	background-color: #343A40;
+	display: flex;
+	font-family: 'Spartan', sans-serif;
+	color: #E1E5EA;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills-details {
+	display: flex;
+	flex-direction: column;
+	height: 725px;
+	width: 70%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.skills-details h1 {
+	margin-top: 70px;
+	overflow: visible;
+	transition: all 0.5s;
+}
+
+.skills-details h1:hover {
+	letter-spacing: 3px;
+}
+
+.skills img {
+	width: 7vw;
+	height: 7vw;
+	background-color: #343A40;
+	transition: all 0.5s;
+}
+
+.skills img:hover {
+	width: 8.5vw;
+	height: 8.5vw;
+}
+
+.logos {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 75%;
+	justify-content: space-around;
+	overflow: visible;
+}
+
+.logos-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 1;
+	align-items: center;
+	overflow: visible;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.skills2 {
+	background-color: #343A40;
+	display: flex;
+	font-family: 'Spartan', sans-serif;
+	color: #E1E5EA;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.1%;
+}
+
+.skills-details2 {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 700px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	padding-top: 3%;
+}
+
+.skills-details2 h1 {
+	transition: all 0.5s;
+	margin-top: 20px;
+	font-size: 25px;
+	overflow: visible;
+}
+
+.skills-details2 h1:hover {
+	letter-spacing: 2px;
+}
+
+.skills2 img {
+	width: 10vw;
+	height: 10vw;
+	background-color: #343A40;
+	transition: all 0.5s;
+
+}
+
+.skills2 img:hover {
+	width: 12vw;
+	height: 12vw;
+}
+
+.logos2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 70%;
+	justify-content: space-around;
+	margin-top: 25px;
+	overflow: visible;
+}
+
+.logos-32 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex: 1;
+	align-items: center;
+	overflow: visible;
+}
