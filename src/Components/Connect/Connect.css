@@ -13,15 +13,17 @@
 	display: flex;
 	flex-direction: column;
 	width: 70%;
-	height: 730px;
+	/* height: 730px; */
 	align-items: center;
 	justify-content: space-around;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
 }
 
 .connect-details h1 {
-	padding-top: 60px;
 	overflow: visible;
 	transition: all 0.5s;
+	margin-bottom: 5vh;
 }
 
 .connect-details h1:hover {
@@ -31,7 +33,6 @@
 .logo-details {
 	display: flex;
 	flex-direction: column;
-	height: 80%;
 	width: 80%;
 	align-items: center;
 	justify-content: space-around;
@@ -40,11 +41,12 @@
 .logo-row {
 	display: flex;
 	flex-direction: row;
-	height: 50%;
 	width: 80%;
 	align-items: center;
 	justify-content: space-around;
 	overflow: visible;
+	margin-top: 7vh;
+	margin-bottom: 7vh;
 }
 
 .icon {
@@ -75,15 +77,18 @@
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	height: 700px;
+	/* height: 700px; */
 	align-items: center;
 	justify-content: space-around;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
 }
 
 .connect-details2 h1 {
-	padding-top: 60px;
 	overflow: visible;
 	transition: all 0.5s;
+	font-size: 30px;
+	margin-bottom: 5vh;
 }
 
 .connect-details2 h1:hover {
@@ -93,7 +98,6 @@
 .logo-details2 {
 	display: flex;
 	flex-direction: column;
-	height: 70%;
 	width: 90%;
 	align-items: center;
 	justify-content: space-around;
@@ -102,11 +106,12 @@
 .logo-row2 {
 	display: flex;
 	flex-direction: row;
-	height: 50%;
 	width: 80%;
 	align-items: center;
 	justify-content: space-around;
 	overflow: visible;
+	margin-top: 7vh;
+	margin-bottom: 7vh;
 }
 
 .icon2 {

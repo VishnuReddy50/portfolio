@@ -13,15 +13,14 @@
 	display: flex;
 	flex-direction: column;
 	width: 80%;
-	height: 1900px;
+	/* height: 1900px; */
 	align-items: center;
 	transition: all 0.5s;
+	margin-top: 10vh;
 }
 
 .project-details h1 {
 	transition: all 0.5s;
-	margin-top: 80px;
-	margin-bottom: 60px;
 }
 
 .project-details h1:hover {
@@ -46,7 +45,6 @@
 .project-cards {
 	display: flex;
 	flex-direction: column;
-	margin-top: 1px;
 }
 
 .project-row {
@@ -75,14 +73,13 @@
 
 .project-card h3 {
 	color: #F5C0C0;
-	font-size: 25px;
-	letter-spacing: 3px;
+	font-size: 24px;
+	letter-spacing: 2px;
 	overflow: visible;
 }
 
 .project-card li {
-	font-size: 19px;
-	letter-spacing: 1px;
+	font-size: 20px;
 	overflow: visible;
 }
 
@@ -103,15 +100,14 @@
 	display: flex;
 	flex-direction: column;
 	width: 85%;
-	height: 1550px;
+	/* height: 1550px; */
 	align-items: center;
 	transition: all 0.5s;
 }
 
 .project-details3 h1 {
 	transition: all 0.5s;
-	margin-top: 80px;
-	margin-bottom: 60px;
+	margin-top: 12vh;
 }
 
 .project-details3 h1:hover {
@@ -170,14 +166,13 @@
 
 .project-card3 h3 {
 	color: #F5C0C0;
-	font-size: 23px;
-	letter-spacing: 3px;
+	font-size: 22px;
+	letter-spacing: 2px;
 	overflow: visible;
 }
 
 .project-card3 li {
-	font-size: 17px;
-	letter-spacing: 1px;
+	font-size: 18px;
 	overflow: visible;
 }
 
@@ -198,15 +193,15 @@
 	display: flex;
 	flex-direction: column;
 	width: 80%;
-	height: 2200px;
+	/* height: 2200px; */
 	align-items: center;
 	margin-top: 6%;
 }
 
 .project-details2 h1 {
 	transition: all 0.5s;
-	margin-top: 80px;
-	margin-bottom: 60px;
+	margin-top: 15vh;
+	margin-bottom: 5vh;
 	font-size: 25px;
 	transition: all 0.5s;
 
@@ -264,7 +259,6 @@
 }
 
 .project-card2 li {
-	font-size: 15px;
-	letter-spacing: 1px;
+	font-size: 16px;
 	overflow: visible;
 }

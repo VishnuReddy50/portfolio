@@ -4,7 +4,7 @@ import './Landing.css';
 function Landing({ windowWidth }) {
 
 
-	if (windowWidth > 1270) {
+	if (windowWidth > 1100) {
 		return (
 			<div className="landing" id="landing">
 				<div className="typewriter">
@@ -14,7 +14,18 @@ function Landing({ windowWidth }) {
 						<p />
 						<pre>                                  --Waseem Latif</pre>
 					</div>
+				</div>
+			</div>
 
+		);
+	} else if (windowWidth > 700) {
+		return (
+			<div className="landing" id="landing">
+				<div className="quote2">
+					“ People don't care about what you say,<br />
+					they care about what you build. ”<br />
+					<p />
+					<pre>              --Mark Zuckerberg</pre>
 				</div>
 			</div>
 
