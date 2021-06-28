@@ -81,6 +81,7 @@
 .project-card li {
 	font-size: 20px;
 	overflow: visible;
+	line-height: 1.4;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -174,6 +175,7 @@
 .project-card3 li {
 	font-size: 18px;
 	overflow: visible;
+	line-height: 1.4;
 }
 
 
@@ -261,4 +263,5 @@
 .project-card2 li {
 	font-size: 16px;
 	overflow: visible;
+	line-height: 1.4;
 }

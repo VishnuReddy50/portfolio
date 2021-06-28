@@ -39,7 +39,8 @@ function About() {
 						data-aos-duration="1500"
 						className="about-details"
 					>
-						I’ve good knowledge on Data Structures & Algorithms. As I have just started my career, I want to practically explore and experience my potential.					</p>
+						I’ve good knowledge on Data Structures & Algorithms. As I have just started my career, I want to practically explore and experience my potential.
+					</p>
 				</div>
 			</div>
 		</div>

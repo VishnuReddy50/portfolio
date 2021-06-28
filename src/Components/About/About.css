@@ -21,8 +21,8 @@
 	border-radius: 30px;
 	transition: all 0.5s;
 	overflow: visible;
-		margin-top: 20vh;
-		margin-bottom: 22vh;
+	margin-top: 20vh;
+	margin-bottom: 22vh;
 }
 
 .about-div p {
@@ -40,6 +40,7 @@
 
 .about-details {
 	font-size: 23px;
+	line-height: 1.4;
 }
 
 @media (max-width: 900px) {
