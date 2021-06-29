@@ -38,10 +38,11 @@
 }
 
 .skills img:hover {
-	width: 8.5vw;
+	/* width: 8.5vw;
 	height: 8.5vw;
 	margin-top: 0vh;
 	margin-bottom: 0vh;
+	*/ transform: scale(1.25);
 }
 
 .logos {
@@ -111,10 +112,11 @@
 }
 
 .skills2 img:hover {
-	width: 12vw;
+	/* width: 12vw;
 	height: 12vw;
 	margin-top: 0vh;
 	margin-bottom: 0vh;
+	*/ transform: scale(1.25);
 }
 
 .logos2 {

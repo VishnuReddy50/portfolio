@@ -82,7 +82,7 @@ function Skills({ windowWidth }) {
 						</div>
 
 						<div
-							data-aos="fade-right"
+							data-aos="fade-left"
 							data-aos-offset="300"
 							data-aos-easing="ease-in-sine"
 							className="logos-32"

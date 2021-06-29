@@ -43,6 +43,12 @@
 	line-height: 1.4;
 }
 
+@media (max-width: 1100px) {
+	.about h1 {
+		font-size: 37px
+	}
+}
+
 @media (max-width: 900px) {
 	.about h1 {
 		font-size: 34px;
