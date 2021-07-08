@@ -10,6 +10,7 @@
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
+	transition: all 0.3s;
 }
 
 .navTitle {
@@ -61,7 +62,7 @@ a.left:before {
 
 a.left:hover:before {
 	visibility: visible;
-	width: 110%;
+	width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -96,7 +97,10 @@ a.left:hover:before {
 		align-items: center;
 		justify-content: center;
 	}
-
+/* .navTitle {
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+} */
 	.navTitle a {
 		font-size: 20px;
 	}
