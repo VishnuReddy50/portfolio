@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
 
-function Nav() {
+function Nav({ windowWidth }) {
 
 	const name = "< Vishnu_Reddy />";
 	const about = "< About />";
@@ -9,15 +9,17 @@ function Nav() {
 	const work = "< Work />";
 	const contact = "< Contact />";
 
-	var prevScrollpos = window.pageYOffset;
-	window.onscroll = function () {
-		var currentScrollPos = window.pageYOffset;
-		if (prevScrollpos > currentScrollPos) {
-			document.getElementById("nav").style.top = "0";
-		} else {
-			document.getElementById("nav").style.top = "-50px";
+	if (windowWidth > 900) {
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function () {
+			var currentScrollPos = window.pageYOffset;
+			if (prevScrollpos > currentScrollPos) {
+				document.getElementById("nav").style.top = "0";
+			} else {
+				document.getElementById("nav").style.top = "-50px";
+			}
+			prevScrollpos = currentScrollPos;
 		}
-		prevScrollpos = currentScrollPos;
 	}
 
 	return (

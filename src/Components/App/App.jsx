@@ -21,7 +21,9 @@ function App() {
 
   return (
     <div className="app">
-      <Nav />
+      <Nav
+        windowWidth={windowWidth}
+      />
       <Landing
         windowWidth={windowWidth}
       />
