@@ -17,7 +17,7 @@ function Skills({ windowWidth }) {
 			<div className="skills" id="skills">
 				<div className="skills-details">
 					<div>
-						<h1	>{technologies}</h1>
+						<h1>{technologies}</h1>
 					</div>
 
 					<div className="logos">

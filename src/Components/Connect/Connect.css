@@ -87,7 +87,7 @@
 .connect-details2 h1 {
 	overflow: visible;
 	transition: all 0.5s;
-	font-size: 30px;
+	/* font-size: 28px; */
 	margin-bottom: 5vh;
 }
 

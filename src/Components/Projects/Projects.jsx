@@ -14,7 +14,7 @@ function Projects({ windowWidth }) {
 			<div className="projects" id="projects">
 				<div className="project-details">
 					<div>
-						<h1	>{projects}</h1>
+						<h1>{projects}</h1>
 					</div>
 
 					<div className="project-cards">
