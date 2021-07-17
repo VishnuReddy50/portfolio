@@ -16,7 +16,7 @@ function Nav({ windowWidth }) {
 			if (prevScrollpos > currentScrollPos) {
 				document.getElementById("nav").style.top = "0";
 			} else {
-				document.getElementById("nav").style.top = "-50px";
+				document.getElementById("nav").style.top = "-100%";
 			}
 			prevScrollpos = currentScrollPos;
 		}

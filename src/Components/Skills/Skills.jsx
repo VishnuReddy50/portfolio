@@ -16,18 +16,14 @@ function Skills({ windowWidth }) {
 		return (
 			<div className="skills" id="skills">
 				<div className="skills-details">
-					<div
-						data-aos="fade-up"
-						data-aos-duration="1500"
-					>
+					<div>
 						<h1	>{technologies}</h1>
 					</div>
 
 					<div className="logos">
 						<div
-							data-aos="fade-right"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							className="logos-3"
 						>
 							<img src={cpp} alt="C++" />
@@ -36,9 +32,8 @@ function Skills({ windowWidth }) {
 						</div>
 
 						<div
-							data-aos="fade-left"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							className="logos-3"
 						>
 							<img src={mongo} alt="Mongo" />
@@ -47,7 +42,8 @@ function Skills({ windowWidth }) {
 						</div>
 
 						<div
-							data-aos="fade-down"
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							className="logos-3"
 						>
 							<img src={node} alt="Node" />
@@ -62,18 +58,14 @@ function Skills({ windowWidth }) {
 		return (
 			<div className="skills2" id="skills">
 				<div className="skills-details2">
-					<div
-						data-aos="fade-up"
-						data-aos-duration="1500"
-					>
-						<h1	>{technologies}</h1>
+					<div>
+						<h1>{technologies}</h1>
 					</div>
 
 					<div className="logos2">
 						<div
-							data-aos="fade-right"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							className="logos-32"
 						>
 							<img src={cpp} alt="C++" />
@@ -82,9 +74,8 @@ function Skills({ windowWidth }) {
 						</div>
 
 						<div
-							data-aos="fade-left"
-							data-aos-offset="300"
-							data-aos-easing="ease-in-sine"
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							className="logos-32"
 						>
 							<img src={mongo} alt="Mongo" />
@@ -93,7 +84,8 @@ function Skills({ windowWidth }) {
 						</div>
 
 						<div
-							data-aos="fade-down"
+							data-aos="fade-up"
+							data-aos-duration="1000"
 							className="logos-32"
 						>
 							<img src={node} alt="Node" />

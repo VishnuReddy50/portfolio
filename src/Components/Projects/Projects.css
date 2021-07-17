@@ -12,11 +12,9 @@
 .project-details {
 	display: flex;
 	flex-direction: column;
-	width: 80%;
-	/* height: 1900px; */
+	width: 100%;
 	align-items: center;
 	transition: all 0.5s;
-	margin-top: 10vh;
 }
 
 .project-details h1 {
@@ -26,67 +24,65 @@
 .project-details h1:hover {
 	letter-spacing: 3px;
 }
-
-.image {
-	width: 28vw;
-	height: 19vw;
-	border-radius: 30px;
-	transition: all 0.5s;
-}
-
-.image-scroll {
-	overflow: visible;
-}
-
-.image:hover {
-	box-shadow: #D83A56 0px 5px 15px;
-}
-
 .project-cards {
 	display: flex;
 	flex-direction: column;
-}
-
-.project-row {
-	display: flex;
-	flex-direction: row;
+	width: 100%;
 	justify-content: center;
 	align-items: center;
-	padding-top: 5%;
-	margin-bottom: 5%;
-	overflow: visible;
+}
+
+.cards-row {
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	justify-content: space-evenly;
+	padding-top: 4vh;
+	padding-bottom: 6vh;
 }
 
 .project-card {
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 30px;
 	transition: all 1s;
 	overflow: visible;
+	width: 40%;
+	border-radius: 15px;
+	overflow: visible;
+	box-shadow: 10px 10px 20px #24292d,
+	-10px -10px 20px #444b53;
+	transition: all 0.5s;
 }
 
-.project-card:hover {
-	box-shadow: rgba(248, 245, 245, 0.931) 0px 5px 15px;
+.project-card a {
+	text-decoration: none;
+
+}
+
+.project-card img {
+	width: 100%;
+	height: 35vh;
+	border-radius: 15px 15px 0 0;
+	overflow: visible;
 }
 
 .project-card h3 {
 	color: #F5C0C0;
-	font-size: 24px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	overflow: visible;
+	margin: 4%;
 }
 
 .project-card li {
-	font-size: 20px;
+	font-size: 16px;
 	overflow: visible;
 	line-height: 1.4;
+	margin: 4%;
+	color: #E1E5EA;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.projects3 {
+.projects1 {
 	background-color: #343A40;
 	display: flex;
 	font-family: 'Spartan', sans-serif;
@@ -97,89 +93,79 @@
 
 }
 
-.project-details3 {
+.project-details1 {
 	display: flex;
 	flex-direction: column;
-	width: 85%;
-	/* height: 1550px; */
+	width: 100%;
 	align-items: center;
 	transition: all 0.5s;
 }
 
-.project-details3 h1 {
+.project-details1 h1 {
+	font-size: 26px;
 	transition: all 0.5s;
-	margin-top: 12vh;
 }
 
-.project-details3 h1:hover {
+.project-details1 h1:hover {
 	letter-spacing: 3px;
 }
 
-.project-cards3 {
+.project-cards1 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 1px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
-.cards-row {
+.cards-row1 {
 	display: flex;
 	flex-direction: row;
+	width: 90%;
+	justify-content: space-evenly;
+	padding-top: 4vh;
+	padding-bottom: 6vh;
 }
 
-.image3 {
-	width: 33vw;
-	height: 19vw;
-	border-radius: 30px;
+.project-card1 {
+	transition: all 1s;
+	overflow: visible;
+	width: 40%;
+	border-radius: 15px;
+	overflow: visible;
+	box-shadow: 10px 10px 20px #24292d,
+		-10px -10px 20px #444b53;
 	transition: all 0.5s;
 }
 
-.image-scroll3 {
+.project-card1 a {
+	text-decoration: none;
+}
+
+.project-card1 img {
+	width: 100%;
+	height: 30vh;
+	border-radius: 15px 15px 0 0;
 	overflow: visible;
 }
 
-.image3:hover {
-	box-shadow: #D83A56 0px 5px 15px;
-}
-
-.project-row3 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	padding-top: 5%;
-	margin-bottom: 5%;
-	overflow: visible;
-}
-
-.project-card3 {
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 30px;
-	transition: all 1s;
-	overflow: visible;
-}
-
-.project-card3:hover {
-	box-shadow: rgba(248, 245, 245, 0.931) 0px 5px 15px;
-}
-
-.project-card3 h3 {
+.project-card1 h3 {
 	color: #F5C0C0;
-	font-size: 22px;
+	font-size: 19px;
 	letter-spacing: 2px;
 	overflow: visible;
+	margin: 4%;
 }
 
-.project-card3 li {
-	font-size: 18px;
+.project-card1 li {
+	font-size: 15px;
 	overflow: visible;
 	line-height: 1.4;
+	margin: 4%;
+	color: #E1E5EA;
 }
 
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .projects2 {
 	background-color: #343A40;
@@ -194,74 +180,74 @@
 .project-details2 {
 	display: flex;
 	flex-direction: column;
-	width: 80%;
-	/* height: 2200px; */
+	width: 100%;
 	align-items: center;
-	margin-top: 6%;
+	transition: all 0.5s;
 }
 
 .project-details2 h1 {
+	font-size: 26px;
 	transition: all 0.5s;
-	margin-top: 15vh;
-	margin-bottom: 5vh;
-	font-size: 25px;
-	transition: all 0.5s;
-
 }
 
 .project-details2 h1:hover {
-	letter-spacing: 2px;
-}
-
-.image2 {
-	width: 50vw;
-	height: 25vw;
-	border-radius: 25px;
-	margin-bottom: 7%;
-	transition: all 0.5s;
-}
-
-.image2:hover {
-	box-shadow: #D83A56 0px 5px 15px;
+	letter-spacing: 3px;
 }
 
 .project-cards2 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 0;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
-.project-row2 {
+.cards-row2 {
 	display: flex;
 	flex-direction: column;
+	width: 90%;
 	justify-content: space-evenly;
+	padding-top: 4vh;
+	padding-bottom: 6vh;
 	align-items: center;
-	padding-top: 5%;
-	margin-bottom: 8%;
-	overflow: visible;
 }
 
 .project-card2 {
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 30px;
 	transition: all 1s;
+	overflow: visible;
+	width: 80%;
+	border-radius: 15px;
+	overflow: visible;
+	box-shadow: 10px 10px 20px #24292d,
+	-10px -10px 20px #444b53;
+	transition: all 0.5s;
+	margin-bottom: 6vh;
+	}
+
+	.project-card2 a {
+		text-decoration: none;
+
 }
 
-.project-card2:hover {
-	box-shadow: rgba(248, 245, 245, 0.931) 0px 5px 15px;
+.project-card2 img {
+	width: 100%;
+	height: 30vh;
+	border-radius: 15px 15px 0 0;
+	overflow: visible;
 }
 
 .project-card2 h3 {
 	color: #F5C0C0;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 2px;
+	overflow: visible;
+	margin: 4%;
 }
 
 .project-card2 li {
-	font-size: 16px;
+	font-size: 14px;
 	overflow: visible;
 	line-height: 1.4;
+	margin: 4%;
+	color: #E1E5EA;
 }

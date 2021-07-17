@@ -22,7 +22,7 @@
 	transition: all 0.5s;
 	overflow: visible;
 	margin-top: 20vh;
-	margin-bottom: 22vh;
+	margin-bottom: 20vh;
 }
 
 .about-div p {
@@ -35,7 +35,7 @@
 
 .about h1 {
 	color: #F5C0C0;
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .about-details {
@@ -45,26 +45,34 @@
 
 @media (max-width: 1100px) {
 	.about h1 {
-		font-size: 37px
+		font-size: 33px
 	}
 }
 
 @media (max-width: 900px) {
+	.about-div {
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+	}
 	.about h1 {
-		font-size: 34px;
+		font-size: 33px;
 	}
 
 	.about .about-details {
-		font-size: 20px;
+		font-size: 21px;
 	}
 }
 
 @media (max-width: 700px) {
+	.about-div {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+	}
 	.about h1 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.about .about-details {
-		font-size: 17px;
+		font-size: 15px;
 	}
 }

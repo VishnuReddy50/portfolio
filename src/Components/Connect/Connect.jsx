@@ -12,15 +12,8 @@ function Connect({ windowWidth }) {
 	if (windowWidth > 1200) {
 		return (
 			<div className="connect" id="connect">
-				<div
-					data-aos="fade-up"
-					data-aos-duration="2000"
-					className="connect-details"
-				>
-					<div
-						data-aos="fade-up"
-						data-aos-duration="2000"
-					>
+				<div className="connect-details">
+					<div>
 						<h1>{connect}</h1>
 					</div>
 					<div className="logo-details">
@@ -56,15 +49,9 @@ function Connect({ windowWidth }) {
 	} else {
 		return (
 			<div className="connect2" id="connect">
-				<div
-					data-aos="fade-up"
-					data-aos-duration="2000"
-					className="connect-details2"
+				<div className="connect-details2"
 				>
-					<div
-						data-aos="fade-up"
-						data-aos-duration="2000"
-					>
+					<div>
 						<h1>{connect}</h1>
 					</div>
 					<div className="logo-details2">
